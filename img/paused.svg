@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+    <defs>
+        <!-- subtle shine gradient -->
+        <radialGradient id="shine" cx="30%" cy="30%" r="70%">
+            <stop offset="0%" stop-color="#ffffff" stop-opacity="0.25"/>
+            <stop offset="100%" stop-color="#141B34" stop-opacity="1"/>
+        </radialGradient>
+    </defs>
+
+    <!-- darker, thicker border -->
+    <circle cx="12" cy="12" r="10" 
+        stroke="#000" 
+        stroke-width="2.2" 
+        fill="url(#shine)" />
+
+    <!-- pause icon -->
+    <rect x="9" y="8" width="2.5" height="8" fill="#000"/>
+    <rect x="14.5" y="8" width="2.5" height="8" fill="#000"/>
+</svg>

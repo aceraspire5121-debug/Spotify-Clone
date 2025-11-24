@@ -1,0 +1,64 @@
+{
+    "folders": [
+        {
+            "name": "AngerArena",
+            "title": "AngerArena",
+            "detail": "Songs collection",
+            "cover": "songs/AngerArena/cover.jpg"
+        },
+        {
+            "name": "ArijitHeart",
+            "title": "ArijitHeart",
+            "detail": "Songs collection",
+            "cover": "songs/ArijitHeart/cover.jpg"
+        },
+        {
+            "name": "HeartFire",
+            "title": "HeartFire",
+            "detail": "Songs collection",
+            "cover": "songs/HeartFire/cover.jpg"
+        },
+        {
+            "name": "HoneyGroove",
+            "title": "HoneyGroove",
+            "detail": "Songs collection",
+            "cover": "songs/HoneyGroove/cover.jpg"
+        },
+        {
+            "name": "JubinSoul",
+            "title": "JubinSoul",
+            "detail": "Songs collection",
+            "cover": "songs/JubinSoul/cover.jpg"
+        },
+        {
+            "name": "MoodSwing",
+            "title": "MoodSwing",
+            "detail": "Songs collection",
+            "cover": "songs/MoodSwing/cover.jpg"
+        },
+        {
+            "name": "MoosewalaVibes",
+            "title": "MoosewalaVibes",
+            "detail": "Songs collection",
+            "cover": "songs/MoosewalaVibes/cover.jpg"
+        },
+        {
+            "name": "SoulStorm",
+            "title": "SoulStorm",
+            "detail": "Songs collection",
+            "cover": "songs/SoulStorm/cover.jpg"
+        },
+        {
+            "name": "TonyRhythm",
+            "title": "TonyRhythm",
+            "detail": "Songs collection",
+            "cover": "songs/TonyRhythm/cover.jpg"
+        },
+        {
+            "name": "VibeWave",
+            "title": "VibeWave",
+            "detail": "Songs collection",
+            "cover": "songs/VibeWave/cover.jpg"
+        }
+    ]
+}
