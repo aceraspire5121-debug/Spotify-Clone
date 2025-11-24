@@ -1,0 +1,425 @@
+
+html,body{
+    background-color: black;
+        /* overflow: hidden; */
+  margin: 0;
+    padding: 0;
+    overflow: hidden; /* Blocks scrolling completely */
+    height: 100%;
+}
+.container{
+    display: flex;
+    gap: 8px;
+    margin: 10px;
+    height: 97%;
+}
+
+.left{
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    position: relative;
+    /* height: 100%; */
+}
+.close{
+    position: absolute;
+    width: 40px;
+    right: 5px;
+    top: 5px;
+    display: none;
+}
+.right{
+    width: 84vw;
+    border: 2px solid black;
+    position: relative;
+}
+
+.no-dots li{
+    width: 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.left-first{
+    height: 13%;
+}
+.left-second{
+    height: 79%;
+    padding: 15px 15px 0px;
+    position: relative;
+}
+.left-second-first{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.footer{
+    position: absolute;
+    bottom: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    padding: 0px 12px;
+}
+.footer-style{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 7px;
+}
+
+.footer a{
+    font-size: 12px;
+    font-weight: 400;
+    color: rgb(179, 179, 179);
+}
+.btn {
+    display: flex;
+    gap: 8px;
+    margin: 10px 0px 2px;
+    width: 105px;
+    border-radius: 20px;
+    padding: 5px 16px 5px 10px;
+    font-size: 14px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    background-color: #121212;
+    border: 1px solid white;
+     transition: all 0.2s ease; /*smooth transition for hover */
+}
+
+.btn:hover {
+    transform: scale(1.05); /* slightly pop out */
+    box-shadow: 0 4px 12px rgba(255, 255, 255, 0.3); /* subtle glow */
+    cursor: pointer;
+}
+
+.btn2{
+    width: 80px;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    background-color: #121212;
+    border: 1px solid white;
+     transition: all 0.2s ease; /*smooth transition for hover */
+     text-align: center;
+}
+
+.btn2:hover {
+    transform: scale(1.05); /* slightly pop out */
+    box-shadow: 0 4px 12px rgba(255, 255, 255, 0.3); /* subtle glow */
+    cursor: pointer;
+}
+.header{
+    height: 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px;
+    background-color: rgb(41, 40, 40);
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.header-part-1{
+    display: flex;
+    gap: 10px;
+}
+.hamburger{
+    display: none;
+}
+.header-part-2{
+    display: flex;
+    gap: 10px;
+}
+.album-container{
+    /* margin: 10px 0px 10px 32px; */
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    gap: 20px;
+    flex-wrap: wrap;
+    height: 60%;
+    overflow-y: auto;
+}
+.card{
+   /* border: 2px solid red */
+   width: 190px;
+  background-color: #252525;
+   padding: 0px 10px 10px;
+   border-radius: 5px;
+   position: relative;
+}
+
+.card img{
+width: 100%;
+object-fit: contain;
+}
+.playlist-parent{
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    height: 105px;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.playlist{
+     width: 97%;
+     /* margin: auto;   since position absolute is used here so margin auto will not work  */ 
+    position: absolute;
+   background-color: #0d1b2a;
+   height: 110px;
+   border-radius: 10px;
+}
+.playlist-inside{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7px;
+    height: 50%;
+}
+.timevol{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.speak{
+    display: flex;
+}
+.speak input{
+    /* scales with viewport, but never smaller than 40px or larger than 90px */
+  width: clamp(40px, 6vw, 90px);
+  height: auto;            /* keeps intrinsic aspect ratio if it's an image/SVG */
+  display: block;
+}
+.seekbar{
+    width: 90%;
+    height: 5px;
+    background-color: wheat;
+    position: absolute;
+    bottom:5px;
+    margin: 2px 5%;
+    cursor: pointer;
+}
+
+.circle{
+    height: 11px;
+    width: 11px;
+    background-color: white;
+    border-radius: 20px;
+    position: relative;
+    bottom: 4px;
+    left: 0%;
+    transition: all 0.5s ease;
+}
+
+.song-controls{
+    display: flex;
+    gap: 10px;
+}
+.list-styling{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.left-second-second{
+    margin: 10px 0px;
+    width: 95%;
+    /* border: 2px solid red; */
+    height: 60%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.left-second-second li {
+    display: flex;
+    justify-content: space-around;
+    /* height: 3vw; */
+    border-radius: 10px;
+    padding: 5px;
+    cursor: pointer;
+    /* transition: transform 0.2s ease,box-shadow 0.2s ease,background-color 0.2s ease;   smooth animation */
+
+    /* Instead of writing for each element we can use all in transform so it will automatically apply to all */
+     transition: all 0.2s ease; 
+
+}
+
+.left-second-second li:hover {
+    transform: scale(1.03);      /* slightly bigger */
+    background-color: #181818;   /* darker background (optional) */
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);   /* shadow */
+}
+
+.left-second-second li > :nth-child(2)
+{
+    width: 150px;
+    /* text-align: center; */
+    /* margin-top: 15px; */
+}
+.list-name{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+
+}
+
+@media only screen and (max-width:1400px) {
+
+    .container{
+        margin: 0;
+    }
+    .left{
+        /* position: relative;   isse bo jaha hai bahi rahega upar ya neeche nhi aaane dega kisi ko */
+        position: absolute;
+        left: -120%;
+        z-index: 100;
+        background-color: black;
+        width: 350px;
+        height: 97%;
+        transition: all 0.3s ease;
+    }
+    .left-second{
+        height: 83%;
+    }
+    .left-first{
+        height: 11%;
+    }
+    .right{
+        width: 100%;
+         height: 100%;
+    }
+    .playlist{
+        width: 97%;
+        /* display: flex;
+        fl */
+    }
+    .playlist-parent{
+        height: 80px; 
+    }
+    .left-second-second li{
+        width: 90%;
+        height: 0%;
+    }
+    .hamburger{
+        display: block;
+    }
+    .close{
+        display: block;
+    }
+    .right{
+        margin: 0;
+    }
+    .album-container{
+        max-height: 60%;
+    }
+}
+
+@media (min-width: 340px) and (max-width: 450px)
+{
+    .album-container{
+        margin: 0;
+        justify-content: center;
+        width: 100%;
+        /* max-height: 62vh; */
+    }
+    .card{
+        width: 80%;
+    }
+   .playlist .songname{
+    width: 100px;  
+     /* when you feel your media query is overwritten by the without media query classes css just increase their priority by adding more classes to them just like instead of .songname i write .playlist .songname so it cant be overwritten */
+}
+.speak > :nth-child(1){
+    width: 25px;
+}
+}
+
+@media (min-width: 500px) and (max-width: 768px){
+    .card{
+        width: 200px;
+    }
+}
+@media (min-height: 600px) and (max-height: 883px)
+{
+    .left{
+        width: 280px;
+    }
+    .album-container{
+        max-height: 60%;
+    }
+}
+@media (min-height: 1365px) and (max-height: 1370px)
+{
+    .left{
+        width:400px;
+    }
+}
+@media (min-width: 535px) and (max-width: 545px){
+   .playlist .songname{
+    width: 100px;  }
+}
+@media (min-height: 599px) and (max-height: 720px)
+{
+    .footer{
+        gap: 2px;
+    }
+    .footer-style{
+        gap: 0px 6px;
+    }
+    .btn{
+            margin: 4px 0px 2px;
+            margin: 4px 0px 2px;
+        padding: 2px;
+        width: 79px;
+        font-size: 12px;
+    }
+ .left-second-second{
+    height: 61%;
+ }
+ .btn img{
+    width: 0px;
+ }
+ .left-first{
+height: 15.5%;
+ }
+ .left-second{
+height: 76%;
+ }
+ footer a{
+    font-size: 11px;
+ }
+}
+
+ @media (min-width: 765px) and (max-width: 1025px) and (min-height:605px)
+ /* min height likha kyoki next hub ki bhi width 1024px hai i-pad ki bhi so dono par apply ho ja rahi thi height 9vh */
+{
+.left-first{
+    height: 11%;
+}
+.left-second{
+    height: 85%;
+}
+.left-second-second{
+    height: 60%;
+}
+.footer a{
+    font-size: 16px;
+}
+.footer{
+    bottom: 20px;
+}
+.left .p-first img{    
+    /* bina media query ke upar likha hua tha .p-first img{width:90px} jo ki ise overwrite kar raha tha to iski priority badane ke liye .left class add kardi */
+    width: 110px;
+}
+.left .p-first li{
+    font-size: large;
+}
+}
+
