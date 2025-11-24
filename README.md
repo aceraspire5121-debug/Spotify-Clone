@@ -2,7 +2,7 @@
 
 A dynamic, responsive **Spotify-like music player** built with **HTML, CSS, and JavaScript**, showcasing modern frontend skills such as DOM manipulation, JSON data handling, and interactive audio controls.
 
-Live Demo: [Spotify Clone](whimsical-crumble-4194d1.netlify.app)  
+Live Demo: [Spotify Clone](https://whimsical-crumble-4194d1.netlify.app)  
 
 ---
 
