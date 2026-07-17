@@ -2,9 +2,7 @@
 
 A fully responsive **Spotify-inspired Music Player** built using **HTML, CSS, and Vanilla JavaScript**. The application dynamically loads albums and songs from JSON files, provides real-time audio controls, and delivers a smooth music streaming experience without using any frontend framework.
 
-🔗 **Live Demo:** https://whimsical-crumble-4194d1.netlify.app
-
----
+🔗 **Live Demo:** [Spotify Clone](https://silver-souffle-ff5493.netlify.app)
 
 # 📌 Overview
 
@@ -222,19 +220,22 @@ through JavaScript.
 
 ## Home Page
 
-> *(Add screenshot here)*
+> <img width="1877" height="892" alt="image" src="https://github.com/user-attachments/assets/e5a1b0c8-c17b-409c-9c50-9f3803053c00" />
+
 
 ---
 
 ## Album View
 
-> *(Add screenshot here)*
+><img width="580" height="610" alt="image" src="https://github.com/user-attachments/assets/8ff076d3-ac03-46e0-b5c5-fce6ca05f5a9" />
+
 
 ---
 
 ## Mobile View
 
-> *(Add screenshot here)*
+> <img width="345" height="622" alt="image" src="https://github.com/user-attachments/assets/d596fcea-8d4f-4a4e-9a2b-8f1d434d898d" />
+
 
 ---
 
@@ -308,9 +309,6 @@ using Live Server.
 
 GitHub:
 https://github.com/aceraspire5121-debug
-
-LinkedIn:
-*(Add your LinkedIn profile)*
 
 ---
 
